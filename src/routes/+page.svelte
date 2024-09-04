@@ -8,7 +8,7 @@
 
 <!-- Imagen optimizada para móvil -->
 <img 
-src="/images/ejemplo.webp" 
+src="/images/prueba.webp" 
 alt="Descripción de la imagen" 
 width="320" 
 height="180" 
