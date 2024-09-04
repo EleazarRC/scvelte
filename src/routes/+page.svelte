@@ -5,3 +5,14 @@
     <p class="mt-4 text-lg text-gray-700">Esta es una aplicación SPA con SSR utilizando SvelteKit y Tailwind CSS.</p>
   </div>
 </div>
+
+<!-- Imagen optimizada para móvil -->
+<img 
+src="/images/ejemplo.webp" 
+alt="Descripción de la imagen" 
+width="320" 
+height="180" 
+class="mt-4 mx-auto rounded shadow-sm"
+loading="lazy" 
+decoding="async" 
+/>
