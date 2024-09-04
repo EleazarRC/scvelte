@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -7,12 +7,10 @@ const config = {
 
   kit: {
     adapter: adapter({
-      // Directorio de salida para la construcción de la aplicación
-      out: 'build',
-
-      // Puedes especificar otras opciones como el puerto y el host
-      precompress: false, // Si deseas precomprimir archivos con gzip o brotli
-      envPrefix: '', // Prefijo para variables de entorno
+      // Especifica la carpeta de salida para Vercel
+      pages: 'build',
+      assets: 'build',
+      fallback: null
     })
   }
 };
