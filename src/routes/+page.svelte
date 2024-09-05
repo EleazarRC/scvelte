@@ -1,4 +1,4 @@
-<!-- src/routes/inicio/+page.svelte -->
+<!-- src/routes/+page.svelte -->
 <!-- Hero Section -->
 <section id="inicio" class="min-h-screen bg-gray-100 flex items-center justify-center text-center px-6">
     <div>

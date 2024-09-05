@@ -9,12 +9,12 @@
     <div class="flex justify-between items-center h-16">
       <!-- Logo -->
       <div class="flex-shrink-0">
-        <a href="/inicio" class="text-2xl font-bold text-primary">Turbify</a>
+        <a href="/" class="text-2xl font-bold text-primary">Turbify</a>
       </div>
 
       <!-- Menú de navegación para pantallas grandes -->
       <nav class="hidden md:flex space-x-8">
-        <a href="/inicio" class="text-gray-700 hover:text-primary">Inicio</a>
+        <a href="/" class="text-gray-700 hover:text-primary">Inicio</a>
         <a href="/contacto" class="text-gray-700 hover:text-primary">Contacto</a>
       </nav>
 
@@ -32,7 +32,7 @@
   <!-- Menú de navegación para pantallas móviles -->
   <div class="{isOpen ? 'block' : 'hidden'} md:hidden">
     <nav class="px-2 pt-2 pb-3 space-y-1">
-      <a href="/inicio" class="block text-gray-700 hover:text-primary">Inicio</a>
+      <a href="/" class="block text-gray-700 hover:text-primary">Inicio</a>
       <a href="/contacto" class="block text-gray-700 hover:text-primary">Contacto</a>
     </nav>
   </div>
