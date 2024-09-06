@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('poppins-regular.woff2') format('woff2'); /* Usa el archivo correcto para el peso regular */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('poppins-bold.woff2') format('woff2'); /* Usa el archivo correcto para el peso bold */
+    font-display: swap;
+}
+  
