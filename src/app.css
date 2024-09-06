@@ -3,12 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Poppins-Bold';
-    font-style: normal;
-    font-weight: bold;
-    src: url('Poppins-Bold.woff2') format('woff2'); 
-    font-display: swap;
-}
-
-
