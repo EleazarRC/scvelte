@@ -3,7 +3,6 @@
   id="inicio"
   class="min-h-screen bg-gray-100 flex items-center justify-center text-center px-6 relative"
   aria-labelledby="hero-title"
-  style="font-family: 'Poppins', sans-serif;"
 >
   <!-- Fondo con desenfoque -->
   <div id="image-cover" class="absolute inset-0 bg-cover bg-center" style="background-image: url('diseno-web-clinica-estetica-movil.webp'); filter: blur(4px);" aria-hidden="true"></div>
@@ -14,7 +13,7 @@
   <!-- Contenido de la sección -->
   <div class="relative z-10 max-w-2xl mx-auto px-4 md:px-0">
     <!-- Título Principal -->
-    <h1 id="hero-title" class="text-3xl md:text-5xl font-bold text-white mb-5 md:mb-7 drop-shadow-md tracking-wide">
+    <h1 style="font-family: 'Poppins-Bold', sans-serif;" id="hero-title" class="text-3xl md:text-5xl font-bold text-white mb-5 md:mb-7 drop-shadow-md tracking-wide">
       ¡Transforma tu Clínica de Estética con una 
       <span class="text-yellow-300">Web que Atraiga Clientes</span>!
     </h1>
