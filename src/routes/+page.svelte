@@ -1,3 +1,4 @@
+
 <!-- src/routes/+page.svelte -->
 <section
 	id="inicio"
@@ -337,7 +338,7 @@
 
 	<!-- Carrusel -->
 	<div id="carousel" class="flex items-center space-x-6 overflow-x-hidden w-full max-w-7xl mx-auto">
-		<div class="flex-shrink-0 w-1/4 p-4">
+		<!-- <div class="flex-shrink-0 w-1/4 p-4">
 			<img src="/images/tool1.svg" alt="Herramienta 1" class="mx-auto w-16 h-16 mb-4" />
 			<p class="text-md text-gray-600">Google Analytics</p>
 		</div>
@@ -348,7 +349,7 @@
 		<div class="flex-shrink-0 w-1/4 p-4">
 			<img src="/images/tool3.svg" alt="Herramienta 3" class="mx-auto w-16 h-16 mb-4" />
 			<p class="text-md text-gray-600">Pruebas A/B</p>
-		</div>
+		</div> -->
 		<!-- Agregar más herramientas según sea necesario -->
 	</div>
 
@@ -488,6 +489,7 @@
 	}
 </style>
 
+
 <script lang="ts">
 	import { onMount } from 'svelte';
 
@@ -526,22 +528,24 @@
 
 		// Start the countdown
 		countdown();
-	});
 
-	document.addEventListener('DOMContentLoaded', () => {
+		// Inicializar el carrusel
 		const carousel = document.getElementById('carousel');
 		let scrollAmount = 0;
 
-		function scrollCarousel() {
-			scrollAmount += 1;
-			if (scrollAmount >= carousel!.scrollWidth / 2) {
-				scrollAmount = 0;
-				carousel!.scrollTo(0, 0);
-			} else {
-				carousel!.scrollTo(scrollAmount, 0);
+		if (carousel) {
+			// Verifica que el carrusel no sea null
+			function scrollCarousel() {
+				scrollAmount += 1;
+				if (scrollAmount >= carousel!.scrollWidth / 2) {
+					scrollAmount = 0;
+					carousel!.scrollTo(0, 0);
+				} else {
+					carousel!.scrollTo(scrollAmount, 0);
+				}
 			}
-		}
 
-		setInterval(scrollCarousel, 30); // Ajusta el valor para controlar la velocidad
+			setInterval(scrollCarousel, 30); // Ajusta el valor para controlar la velocidad
+		}
 	});
 </script>
