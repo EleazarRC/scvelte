@@ -5,7 +5,7 @@
   aria-labelledby="hero-title"
 >
   <!-- Fondo con desenfoque -->
-  <div id="image-cover" class="absolute inset-0 bg-cover bg-center" style="background-image: url('diseno-web-clinica-estetica-movil.webp'); filter: blur(4px);" aria-hidden="true"></div>
+  <div id="image-cover" class="absolute inset-0 bg-cover bg-center" style="background-image: url('/diseno-web-clinica-estetica-movil.webp'); filter: blur(4px);" aria-hidden="true"></div>
 
   <!-- Overlay oscuro para mejorar el contraste del texto -->
   <div class="absolute inset-0 bg-black opacity-70 md:opacity-50" aria-hidden="true"></div>
@@ -234,7 +234,7 @@
 <style>
 	@media (min-width: 768px) {
 		#image-cover {
-			background-image: url('diseno-web-clinica-estetica-tablet-pc.webp') !important;
+			background-image: url('/diseno-web-clinica-estetica-tablet-pc.webp') !important;
 		}
 	}
 </style>
