@@ -69,10 +69,9 @@
 </section>
 
 <!-- Sección de Servicios -->
-<!-- Sección de Servicios -->
 <section id="servicios" class="py-20 bg-white text-center px-6 relative">
 	<!-- Fondo con patrón o color sutil -->
-	<div id="background-pattern" class="absolute inset-0 bg-fixed bg-cover bg-no-repeat bg-opacity-5" style="background-image: url('/images/pattern-bg.webp');" aria-hidden="true"></div>
+	<div id="background-pattern" class="absolute inset-0 bg-fixed bg-cover bg-no-repeat bg-opacity-5" aria-hidden="true"></div>
   
 	<!-- Título de la sección -->
 	<div class="relative z-10">
@@ -84,7 +83,7 @@
 	<!-- Contenedor de servicios -->
 	<div class="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-0">
 	  <!-- Servicio 1 -->
-	  <div class="p-8 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+	  <div class="p-8 bg-white rounded-lg shadow-2xl transition-transform transform hover:scale-105 hover:shadow-2xl">
 		<div class="flex justify-center mb-4">
 		  <img src="/ventas.svg" alt="Icono representando diseño web para aumentar ventas" width="128" height="128">
 		</div>
@@ -98,7 +97,7 @@
 	  </div>
   
 	  <!-- Servicio 2 -->
-	  <div class="p-8 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+	  <div class="p-8 bg-white rounded-lg shadow-2xl transition-transform transform hover:scale-105 hover:shadow-2xl">
 		<div class="flex justify-center mb-4">
 		  <img src="/seo.svg" alt="Icono representando optimización SEO local" width="128" height="128">
 		</div>
@@ -112,7 +111,7 @@
 	  </div>
   
 	  <!-- Servicio 3 -->
-	  <div class="p-8 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+	  <div class="p-8 bg-white rounded-lg shadow-2xl transition-transform transform hover:scale-105 hover:shadow-2xl">
 		<div class="flex justify-center mb-4">
 		  <img src="/reservas.svg" alt="Icono representando integración de reservas online" width="128" height="128">
 		</div>
