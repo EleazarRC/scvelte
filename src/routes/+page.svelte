@@ -13,7 +13,7 @@
   <!-- Contenido de la sección -->
   <div class="relative z-10 max-w-2xl mx-auto px-4 md:px-0">
     <!-- Título Principal -->
-    <h1  id="hero-title" class="text-3xl md:text-5xl font-bold text-white mb-5 md:mb-7 drop-shadow-md tracking-wide">
+    <h1 style="font-family: 'Poppins-Bold', sans-serif;" id="hero-title" class="text-3xl md:text-5xl font-bold text-white mb-5 md:mb-7 drop-shadow-md tracking-wide">
       ¡Transforma tu Clínica de Estética con una 
       <span class="text-yellow-300">Web que Atraiga Clientes</span>!
     </h1>
