@@ -1,5 +1,6 @@
 
 <!-- src/routes/+page.svelte -->
+ <!-- inicio -->
 <section
 	id="inicio"
 	class="min-h-screen bg-gray-100 flex items-center justify-center text-center px-6 relative"
@@ -215,192 +216,361 @@
 	</div>
 </section>
 
+<!-- Carrusel de Servicios Ofrecidos -->
+<section id="carousel-servicios" class="py-20 bg-white text-center relative overflow-hidden">
+    <!-- Carousel de Servicios -->
+    <div id="carousel" class="flex animate-marquee items-center gap-6 w-full max-w-7xl mx-auto px-6">
+        <!-- Servicio 1 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                SEO Avanzado
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Mejora tu posicionamiento en Google y atrae a más clientes locales.
+            </p>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-green-500 to-teal-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Diseño SPA
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Aplicaciones web de página única para una experiencia de usuario fluida.
+            </p>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-red-500 to-yellow-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                CRO
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Optimización del Ratio de Conversión para maximizar tus ventas.
+            </p>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Seguridad Web
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Protección avanzada para asegurar la confianza de tus clientes.
+            </p>
+        </div>
+
+        <!-- Servicio 5 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-teal-500 to-blue-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Marketing Digital
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Estrategias personalizadas para aumentar tu visibilidad online.
+            </p>
+        </div>
+
+        <!-- Servicio 6 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Diseño Responsive
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Experiencia óptima en todos los dispositivos, móviles y de escritorio.
+            </p>
+        </div>
+
+        <!-- Servicio 7 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-indigo-500 to-green-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Análisis de Datos
+            </h3>
+            <p class="text-gray-600 mt-2">
+                Decisiones basadas en datos para mejorar continuamente el rendimiento.
+            </p>
+        </div>
+    </div>
+</section>
+
 <!-- enfoque-y-razones -->
-<section id="enfoque-y-razones" class="py-20 bg-gray-100 text-center px-6 relative">
-	<!-- Título de la sección -->
-	<div class="max-w-3xl mx-auto mb-10">
-		<h2 class="text-4xl font-bold mb-4 text-primary" style="font-family: 'Poppins', sans-serif;">
-			Sobre Nosotros
-		</h2>
-		<p class="text-lg text-gray-700 mb-4 leading-relaxed">
-			En <span class="font-semibold text-blue-600">Turbify</span>, ayudamos a las clínicas de
-			estética a
-			<span class="font-semibold underline decoration-4 decoration-blue-600"
-				>convertir más visitantes en clientes</span
-			> con sitios web optimizados para la conversión y el SEO.
-		</p>
+<section id="enfoque-y-razones" class="py-20 bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 text-white px-6 relative">
+    <!-- Título de la sección -->
+    <div class="max-w-3xl mx-auto mb-10 text-center">
+        <h2 class="text-4xl font-bold mb-4" style="font-family: 'Poppins', sans-serif;">
+            Sobre Nosotros
+        </h2>
+        <p class="text-lg mb-4 leading-relaxed">
+            En <span class="font-semibold text-yellow-300">Turbify</span>, ayudamos a las clínicas de estética a 
+            <span class="font-semibold underline decoration-4 decoration-yellow-300">convertir más visitantes en clientes</span> 
+            con sitios web optimizados para la conversión y el SEO.
+        </p>
+    </div>
+
+    <!-- Banner 1: Nuestro Enfoque -->
+    <div class="flex flex-col lg:flex-row items-center justify-between bg-white bg-opacity-20 p-10 rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl my-12 max-w-7xl mx-auto">
+        <!-- Imagen Izquierda en móvil -->
+        <div class="flex-1 mb-6 lg:mb-0 lg:order-none order-first lg:max-w-none max-w-xs mx-auto lg:mx-0">
+            <img src="/enfoque.svg" alt="Nuestro Enfoque" class="rounded-lg lg:rounded-full lg:shadow-md mx-auto lg:mx-0 lg:w-auto lg:h-auto w-48 h-48" />
+        </div>
+
+        <!-- Contenido Derecha -->
+        <div class="flex-1 lg:pl-12">
+            <h3 class="text-3xl font-bold mb-6 text-white text-center lg:text-left" style="font-family: 'Poppins', sans-serif;">
+                Nuestro Enfoque
+            </h3>
+            <p class="text-lg mb-4 leading-relaxed text-center lg:text-left">
+                Nos especializamos en <span class="font-semibold text-yellow-300">diseños web personalizados</span> 
+                que no solo son visualmente atractivos, sino que también están diseñados para ayudarte a 
+                <span class="font-semibold text-yellow-300">captar más clientes</span> y potenciar tu presencia online.
+            </p>
+            <ul class="list-none text-left space-y-4">
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Diseños centrados en destacar los servicios más rentables.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Optimización SEO específica para atraer clientes locales.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Velocidad y seguridad para generar confianza.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Integración con herramientas de gestión de pacientes y reservas.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Diseño responsive para móviles y tabletas.
+                </li>
+            </ul>
+            <!-- CTA Button -->
+            <div class="text-center lg:text-left mt-6">
+                <a href="#contacto" class="inline-block bg-yellow-300 text-blue-800 font-bold py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transform transition duration-300 ease-in-out">
+                    Reserva tu Consulta Gratis
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner 2: Por Qué Elegirnos -->
+    <div class="flex flex-col lg:flex-row-reverse items-center justify-between bg-white bg-opacity-20 p-10 rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl my-12 max-w-7xl mx-auto">
+        <!-- Imagen Derecha en móvil -->
+        <div class="flex-1 mb-6 lg:mb-0 lg:order-none order-first lg:max-w-none max-w-xs mx-auto lg:mx-0">
+            <img src="/por-que-elegirnos.svg" alt="Por Qué Elegirnos" class="rounded-lg lg:rounded-full lg:shadow-md mx-auto lg:mx-0 lg:w-auto lg:h-auto w-48 h-48" />
+        </div>
+
+        <!-- Contenido Izquierda -->
+        <div class="flex-1 lg:pr-12">
+            <h3 class="text-3xl font-bold mb-6 text-white text-center lg:text-left" style="font-family: 'Poppins', sans-serif;">
+                Por Qué Elegirnos
+            </h3>
+            <p class="text-lg mb-4 leading-relaxed text-center lg:text-left">
+                Empleamos herramientas y tecnologías de <span class="font-semibold text-yellow-300">última generación</span> 
+                para garantizar que cada web sea altamente efectiva. Aquí hay algunas razones para elegirnos:
+            </p>
+            <ul class="list-none text-left space-y-4">
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Google Analytics para un análisis detallado del comportamiento del usuario.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    SEO Tools para garantizar que tu clínica esté siempre en los primeros lugares.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Svelte y TailwindCSS para sitios web rápidos, seguros y modernos.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Pruebas A/B continuas para optimizar la conversión de visitantes en clientes.
+                </li>
+                <li class="flex items-start">
+                    <span class="w-3 h-3 rounded-full bg-yellow-300 mr-3 mt-1"></span>
+                    Soporte técnico continuo y actualizaciones regulares.
+                </li>
+            </ul>
+            <!-- CTA Button -->
+            <div class="text-center lg:text-left mt-6">
+                <a href="#contacto" class="inline-block bg-yellow-300 text-blue-800 font-bold py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transform transition duration-300 ease-in-out">
+                    Conoce Nuestros Servicios
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- tools-carousel-->
+<section id="tools-carousel" class="py-20 bg-white text-center relative overflow-hidden">
+    <!-- Carousel de Herramientas -->
+    <div id="carousel" class="flex animate-marquee items-center gap-6 w-full max-w-7xl mx-auto px-6">
+        <!-- Herramienta 1 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Google Analytics
+            </h3>
+        </div>
+
+        <!-- Herramienta 2 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-green-500 to-teal-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                SEO Tools
+            </h3>
+        </div>
+
+        <!-- Herramienta 3 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-red-500 to-yellow-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Pruebas A/B
+            </h3>
+        </div>
+
+        <!-- Herramienta 4 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Svelte & TailwindCSS
+            </h3>
+        </div>
+
+        <!-- Herramienta 5 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-teal-500 to-blue-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Soporte Continuo
+            </h3>
+        </div>
+
+        <!-- Herramienta 6 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Vercel
+            </h3>
+        </div>
+
+        <!-- Herramienta 7 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-indigo-500 to-green-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                TypeScript
+            </h3>
+        </div>
+
+        <!-- Herramienta 8 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-yellow-500 to-purple-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Netlify
+            </h3>
+        </div>
+
+        <!-- Herramienta 9 -->
+        <div class="flex-shrink-0 p-4">
+            <h3 class="text-3xl font-extrabold bg-gradient-to-r from-blue-400 to-pink-500 text-transparent bg-clip-text"
+                style="font-family: 'Montserrat', sans-serif;">
+                Figma
+            </h3>
+        </div>
+
+        <!-- Repetir herramientas para efecto de loop -->
+        <!-- Añadir más herramientas aquí según sea necesario -->
+    </div>
+</section>
+
+<!-- testimonios -->
+<section id="testimonios" class="py-20 bg-gradient-to-b from-blue-900 to-blue-700 text-white relative overflow-hidden">
+	<!-- Estrellas de Fondo -->
+<!-- 	<div class="absolute inset-0 flex justify-center items-center">
+	  <div class="starry-bg opacity-30 w-full h-full"></div>
+	</div> -->
+
+	<!-- Título de la Sección -->
+	<div class="relative z-10 max-w-3xl mx-auto mb-10 text-center">
+	  <h2 class="text-4xl font-bold mb-4" style="font-family: 'Poppins', sans-serif;">
+		Lo que Dicen Nuestros Clientes
+	  </h2>
+	  <p class="text-lg mb-6 leading-relaxe">
+		Descubre cómo hemos transformado la presencia online de clínicas de estética.
+	  </p>
 	</div>
 
-	<!-- Banner 1: Nuestro Enfoque -->
-	<div
-		class="flex flex-col lg:flex-row items-center justify-between bg-white p-10 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl my-12 max-w-7xl mx-auto"
-	>
-		<!-- Imagen Izquierda -->
-		<div class="flex-1 mb-6 lg:mb-0">
-			<img src="/enfoque.svg" alt="Nuestro Enfoque" />
+	<!-- Carrusel de Testimonios -->
+	<div id="testimonios-carousel" class="relative z-10 max-w-2xl mx-auto overflow-hidden">
+	  <div class="testimonios-slider flex transition-transform duration-700 ease-in-out" style="width: 300%;">
+		<!-- Testimonio 1 -->
+		<div class="flex-shrink-0 bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-lg shadow-lg text-center">
+		  <div class="flex items-center justify-center mb-4">
+			<img src="/enfoque.svg" alt="Testimonio de María López" class="w-16 h-16 rounded-full border-2 border-yellow-300 mr-4 shadow-md">
+			<div>
+			  <h3 class="text-xl font-semibold text-yellow-300">María López</h3>
+			  <p class="text-sm text-white">Directora de Clínica Belle</p>
+			</div>
+		  </div>
+		  <p class="text-lg italic text-white leading-relaxed mb-4">"Desde que optimizamos nuestra web con Turbify, nuestras reservas han aumentado un 50%. ¡El mejor retorno de inversión que hemos tenido!"</p>
+		  <div class="text-yellow-300 text-2xl">⭐⭐⭐⭐⭐</div>
 		</div>
 
-		<!-- Contenido Derecha -->
-		<div class="flex-1 lg:pl-12">
-			<h3 class="text-3xl font-bold mb-6 text-primary" style="font-family: 'Poppins', sans-serif;">
-				Nuestro Enfoque
-			</h3>
-			<p class="text-lg mb-4 leading-relaxed">
-				Nos especializamos en <span class="font-semibold text-blue-600"
-					>diseños web personalizados</span
-				>
-				que no solo son visualmente atractivos, sino que también están diseñados para ayudarte a
-				<span class="font-semibold text-blue-600">captar más clientes</span> y potenciar tu presencia
-				online.
-			</p>
-			<ul class="list-none text-left space-y-4">
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Diseños centrados en destacar los servicios más rentables.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Optimización SEO específica para atraer clientes locales.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Velocidad y seguridad para generar confianza.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Integración con herramientas de gestión de pacientes y reservas.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Diseño responsive para móviles y tabletas.
-				</li>
-			</ul>
+		<!-- Testimonio 2 -->
+		<div class="flex-shrink-0 bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-lg shadow-lg text-center">
+		  <div class="flex items-center justify-center mb-4">
+			<img src="/enfoque.svg" alt="Testimonio de Carlos Rodríguez" class="w-16 h-16 rounded-full border-2 border-yellow-300 mr-4 shadow-md">
+			<div>
+			  <h3 class="text-xl font-semibold text-yellow-300">Carlos Rodríguez</h3>
+			  <p class="text-sm text-white">CEO de Estética Plus</p>
+			</div>
+		  </div>
+		  <p class="text-lg italic text-white leading-relaxed mb-4">"Turbify nos ayudó a posicionarnos en Google y a destacar nuestros servicios premium. Estamos encantados con los resultados."</p>
+		  <div class="text-yellow-300 text-2xl">⭐⭐⭐⭐⭐</div>
 		</div>
+
+		<!-- Testimonio 3 -->
+		<div class="flex-shrink-0 bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-lg shadow-lg text-center">
+		  <div class="flex items-center justify-center mb-4">
+			<img src="/enfoque.svg" alt="Testimonio de Ana Martínez" class="w-16 h-16 rounded-full border-2 border-yellow-300 mr-4 shadow-md">
+			<div>
+			  <h3 class="text-xl font-semibold text-yellow-300">Ana Martínez</h3>
+			  <p class="text-sm text-white">Fundadora de Dermaluxe</p>
+			</div>
+		  </div>
+		  <p class="text-lg italic text-white leading-relaxed mb-4">"La atención al detalle y el enfoque personalizado de Turbify realmente marcaron la diferencia en nuestro negocio."</p>
+		  <div class="text-yellow-300 text-2xl">⭐⭐⭐⭐⭐</div>
+		</div>
+	  </div>
 	</div>
 
-	<!-- Banner 2: Por Qué Elegirnos -->
-	<div
-		class="flex flex-col lg:flex-row-reverse items-center justify-between bg-white p-10 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl my-12 max-w-7xl mx-auto"
-	>
-		<!-- Imagen Derecha -->
-		<div class="flex-1 mb-6 lg:mb-0">
-			<img src="/por-que-elegirnos.svg" alt="Por Qué Elegirnos" />
-		</div>
+	<!-- Indicadores del Carrusel -->
+	<div class="flex justify-center mt-8 space-x-2 relative z-10">
+	  <button data-index="0" class="carousel-indicator w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 transition-opacity duration-300"></button>
+	  <button data-index="1" class="carousel-indicator w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 transition-opacity duration-300"></button>
+	  <button data-index="2" class="carousel-indicator w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 transition-opacity duration-300"></button>
+	</div>
 
-		<!-- Contenido Izquierda -->
-		<div class="flex-1 lg:pr-12">
-			<h3 class="text-3xl font-bold mb-6 text-primary" style="font-family: 'Poppins', sans-serif;">
-				Por Qué Elegirnos
-			</h3>
-			<p class="text-lg mb-4 leading-relaxed">
-				Empleamos herramientas y tecnologías de <span class="font-semibold text-blue-600"
-					>última generación</span
-				> para garantizar que cada web sea altamente efectiva. Aquí hay algunas razones para elegirnos:
-			</p>
-			<ul class="list-none text-left space-y-4">
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Google Analytics para un análisis detallado del comportamiento del usuario.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					SEO Tools para garantizar que tu clínica esté siempre en los primeros lugares.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Svelte y TailwindCSS para sitios web rápidos, seguros y modernos.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Pruebas A/B continuas para optimizar la conversión de visitantes en clientes.
-				</li>
-				<li class="flex items-start">
-					<span class="w-3 h-3 rounded-full bg-blue-600 mr-3 mt-1"></span>
-					Soporte técnico continuo y actualizaciones regulares.
-				</li>
-			</ul>
-		</div>
+	<!-- Botón de CTA debajo de los indicadores -->
+	<div class="flex justify-center mt-6 relative z-10">
+	  <a href="#contacto" class="inline-block bg-yellow-300 text-blue-800 font-bold py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transform transition duration-300 ease-in-out">
+		Reserva tu Consulta Gratis
+	  </a>
 	</div>
 </section>
 
-<!-- HERRAMIENTAS -->
-<section id="herramientas" class="py-20 bg-white text-center px-6 relative overflow-hidden">
-	<!-- Título de la sección -->
-	<div class="max-w-3xl mx-auto mb-10">
-		<h2 class="text-4xl font-bold mb-4 text-primary" style="font-family: 'Poppins', sans-serif;">
-			Herramientas que Utilizamos
-		</h2>
-		<p class="text-lg text-gray-700 mb-8 leading-relaxed">
-			Utilizamos las mejores herramientas para asegurar que tu web sea rápida, segura y esté
-			optimizada para conversiones.
-		</p>
-	</div>
+  
 
-	<!-- Carrusel -->
-	<div id="carousel" class="flex items-center space-x-6 overflow-x-hidden w-full max-w-7xl mx-auto">
-		<!-- <div class="flex-shrink-0 w-1/4 p-4">
-			<img src="/images/tool1.svg" alt="Herramienta 1" class="mx-auto w-16 h-16 mb-4" />
-			<p class="text-md text-gray-600">Google Analytics</p>
-		</div>
-		<div class="flex-shrink-0 w-1/4 p-4">
-			<img src="/images/tool2.svg" alt="Herramienta 2" class="mx-auto w-16 h-16 mb-4" />
-			<p class="text-md text-gray-600">SEO Tools</p>
-		</div>
-		<div class="flex-shrink-0 w-1/4 p-4">
-			<img src="/images/tool3.svg" alt="Herramienta 3" class="mx-auto w-16 h-16 mb-4" />
-			<p class="text-md text-gray-600">Pruebas A/B</p>
-		</div> -->
-		<!-- Agregar más herramientas según sea necesario -->
-	</div>
 
-	<!-- Botón de CTA debajo del carrusel -->
-	<div class="mt-10">
-		<a
-			href="#contacto"
-			class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition duration-200 shadow-md"
-		>
-			¡Descubre Cómo Aumentar tus Reservas!
-		</a>
-	</div>
-</section>
-
-<!-- Sección de Sobre Nosotros -->
-<!-- <section id="sobre-nosotros" class="py-16 bg-gray-100 text-center px-6">
-	<h2 class="text-3xl font-bold mb-8 text-primary">Sobre Nosotros</h2>
-	<div class="max-w-3xl mx-auto">
-		<p class="text-lg mb-6">
-			En Turbify, ayudamos a clínicas de estética a maximizar su potencial online. Con experiencia
-			en desarrollo web y optimización de conversiones, creamos sitios que no solo lucen bien, sino
-			que también venden.
-		</p>
-		<p class="text-lg">
-			Nuestro enfoque está en la velocidad, la seguridad, y la eficiencia, garantizando que tu web
-			sea una herramienta poderosa para atraer y retener clientes.
-		</p>
-	</div>
-</section> -->
-
-<!-- Sección de Testimonios -->
-<!-- <section id="testimonios" class="py-16 bg-white text-center px-6">
-	<h2 class="text-3xl font-bold mb-8 text-primary">Lo que dicen nuestros clientes</h2>
-	<div class="max-w-4xl mx-auto">
-		<blockquote class="mb-8">
-			<p class="text-xl italic">
-				"Desde que optimizamos nuestra web con Turbify, nuestras reservas han aumentado un 50%. ¡El
-				mejor retorno de inversión que hemos tenido!"
-			</p>
-			<footer class="text-sm mt-4">— María López, Directora de Clínica Bella</footer>
-		</blockquote>
-		<blockquote class="mb-8">
-			<p class="text-xl italic">
-				"Turbify nos ayudó a posicionarnos en Google y a destacar nuestros servicios premium.
-				Estamos encantados con los resultados."
-			</p>
-			<footer class="text-sm mt-4">— Carlos Rodríguez, CEO de Estética Plus</footer>
-		</blockquote>
-	</div>
-</section> -->
-
+  
+  
 <!-- Sección de Urgencia y Escasez -->
 <!-- <section id="oferta" class="py-16 bg-red-100 text-center px-6">
 	<h2 class="text-3xl font-bold mb-8 text-red-600">¡Oferta Exclusiva por Tiempo Limitado!</h2>
@@ -487,65 +657,89 @@
 			transform: translateX(-100%);
 		}
 	}
+
+	/* Animación para el efecto de scroll infinito */
+	@keyframes marquee {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+	}
+
+	.animate-marquee {
+	display: flex;
+	gap: 6rem;
+	animation: marquee 20s linear infinite;
+	}
+	.testimonios-slider {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+  width: 100%; /* Asegura que el slider ocupe el 100% del ancho del contenedor */
+}
+
+.testimonios-slider {
+  display: flex;
+  transition: transform 0.7s ease-in-out; /* Transición suave */
+  width: 300%; /* El ancho total es el triple del contenedor porque hay 3 testimonios */
+}
+
+.testimonios-slider > div {
+  flex: 0 0 33.33%; /* Cada testimonio ocupa 1/3 del contenedor total */
+  max-width: 100%; /* Evita que el contenido se desborde */
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  text-align: center; /* Centra el texto */
+}
+
+#testimonios-carousel {
+  overflow: hidden; /* Oculta el contenido que se desborda fuera del área visible */
+  position: relative; /* Asegura que los elementos internos se posicionen correctamente */
+  max-width: 100%; /* Limita el ancho del carrusel al contenedor */
+}
+
 </style>
-
-
 <script lang="ts">
 	import { onMount } from 'svelte';
-
+  
 	onMount(() => {
-		const countdown = () => {
-			// Calculate the end time 24 hours from now
-			const end = new Date(Date.now() + 24 * 60 * 60 * 1000).getTime(); // Convert to milliseconds
-
-			// Function to update the countdown every second
-			const updateCountdown = () => {
-				const now = new Date().getTime(); // Current time in milliseconds
-				const timeLeft = end - now; // Difference in milliseconds
-
-				// Get the countdown element
-				const countdownElement = document.getElementById('countdown') as HTMLElement | null; // Assert type to HTMLElement or null
-
-				if (!countdownElement) return; // Exit if element is not found
-
-				if (timeLeft <= 0) {
-					// If the countdown has ended, display 00:00:00
-					countdownElement.innerHTML = '00:00:00';
-				} else {
-					// Calculate hours, minutes, and seconds
-					const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-					const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-					const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-					// Update the countdown element with formatted time
-					countdownElement.innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-				}
-			};
-
-			// Set the countdown to update every second
-			setInterval(updateCountdown, 1000);
-		};
-
-		// Start the countdown
-		countdown();
-
-		// Inicializar el carrusel
-		const carousel = document.getElementById('carousel');
-		let scrollAmount = 0;
-
-		if (carousel) {
-			// Verifica que el carrusel no sea null
-			function scrollCarousel() {
-				scrollAmount += 1;
-				if (scrollAmount >= carousel!.scrollWidth / 2) {
-					scrollAmount = 0;
-					carousel!.scrollTo(0, 0);
-				} else {
-					carousel!.scrollTo(scrollAmount, 0);
-				}
-			}
-
-			setInterval(scrollCarousel, 30); // Ajusta el valor para controlar la velocidad
-		}
+	  const testimoniosSlider = document.querySelector('.testimonios-slider') as HTMLElement;
+	  const indicators = Array.from(document.querySelectorAll('.carousel-indicator'));
+	  let currentIndex = 0;
+	  let intervalId: number;
+  
+	  const updateCarousel = () => {
+		// Calcula la nueva posición de desplazamiento basándose en el índice actual
+		testimoniosSlider.style.transform = `translateX(-${currentIndex * (100 / 3)}%)`; // Usa 100/3 para mover un tercio por vez
+		indicators.forEach((indicator, index) => {
+		  indicator.classList.toggle('bg-yellow-300', index === currentIndex);
+		});
+	  };
+  
+	  const startAutoSlide = () => {
+		intervalId = setInterval(() => {
+		  currentIndex = (currentIndex + 1) % indicators.length; // Cambia al siguiente testimonio
+		  updateCarousel(); // Actualiza la posición del carrusel
+		}, 5000); // Duración de 5 segundos para cada testimonio
+	  };
+  
+	  indicators.forEach((indicator, index) => {
+		indicator.addEventListener('click', () => {
+		  clearInterval(intervalId); // Detener el carrusel automático
+		  currentIndex = index; // Actualiza el índice al seleccionado
+		  updateCarousel(); // Actualiza la posición del carrusel
+		  startAutoSlide(); // Reinicia el carrusel automático
+		});
+	  });
+  
+	  // Inicializa el carrusel
+	  updateCarousel();
+	  startAutoSlide();
 	});
 </script>
+
+
+  
+  
+
+
